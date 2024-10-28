@@ -1,0 +1,22 @@
+{
+  "name": "drum-pad",
+  "displayName": "Drum Pad",
+  "description": "A simple drum pad with sound playback in VS Code",
+  "version": "0.0.1",
+  "publisher": "your-name",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "activationEvents": [
+    "onCommand:drumPad.open"
+  ],
+  "main": "extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "drumPad.open",
+        "title": "Open Drum Pad"
+      }
+    ]
+  }
+}
